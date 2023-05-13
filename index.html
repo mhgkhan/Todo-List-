@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST USING VANILA JS || ghazna.com </title>
+    <link rel="stylesheet" href="public/style.css">
+</head>
+
+<body>
+
+    <!-- STARTIGN THE APP  -->
+    <div class="app">
+        <!-- STARTING THE CONTAINER  -->
+        <div class="container">
+            <h1>TODO LIST USING HTML CSS JS </h1>
+            
+
+            <!-- STARTING THE TODO LIST APP  -->
+            <div class="todolist">
+
+                <!-- START THE INPUT SECTION TO ADD NEW ITEM IN THE LIST  -->
+                <div class="input">
+                    <h2>Type to add </h2>
+                    <input type="text" name="todo-input" id="input" placeholder="Type value less than 20 chars " required minlength="3" maxlength="20" >
+                    <button id="todobtn">Add to cart </button>
+                    <!-- END THE INPUT TO ADD NEW ITEMS IN THE LIST  -->
+                </div>
+
+                <!-- STARITING THE TABLE  -->
+                <div class="items">
+                    <h2>Items </h2>
+
+
+
+
+                    <table >
+                        <thead>
+                            <tr>
+                                <td>S.No</td>
+                                <td>Description</td>
+                                <td>Edit</td>
+                                <td>Del</td>
+                            </tr>
+                        </thead>
+
+                        <tbody id="tbody">
+                            <!-- <tr>
+                                <td>1</td>
+                                <td>Items for Ukrain</td>
+                                <td class="action" id="edit-id">✏️</td>
+                                <td class="action" id="del-id">🗑️</td>
+                            </tr> --> 
+                            <!-- this code is comming from js  -->
+                        </tbody>
+                    </table>
+
+
+
+
+                    <!-- ENDING THE TABLE  -->
+                </div>
+                <!-- ENDING THE TODO  LIST APP  -->
+            </div>
+
+            <!-- STARTING THE FOOTER  -->
+            <footer>
+                <p>Copyright&copy; All right reserved 2023 ghazna.com </p>
+                <!-- END FOOTER  -->
+            </footer>
+
+
+            <!-- END OF CONTAINER  -->
+        </div>
+        <!-- END OF APP  -->
+    </div>
+
+
+    <script src="public/script.js"></script>
+</body>
+</html>
